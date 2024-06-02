@@ -1,0 +1,15 @@
+/* if sel=0 the out=a else out=b */
+/* DMux 
+    a = in And Not sel
+    b = in and sel
+*/
+CHIP DMux {
+    IN in,sel;
+    OUT a,b;
+    
+    PARTS:
+    Not(in=sel, out=notsel);
+    And(a=in, b=notsel, out=a);
+
+    And(a=in, b=sel, out=b);
+}

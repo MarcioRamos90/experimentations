@@ -1,0 +1,25 @@
+17
+18
+26
+49
+53 types and varables 
+56
+57 float
+62 boolea
+63 Reference Types and Values
+64 Objects
+
+
+The falacy of "Work smart is better than work hard"
+
+smatest way when you don't know how to work smart is to work hard
+
+
+
+
+time wins every time:
+	a person working 40 hours week against other person working 80 hours week,
+	no matters how mutch more intelligent the person A is, the time worked by the persoin B
+	will transform him in a more skilled person.
+
+You can not controll the distraction, but you controll the your response when you realize that you are distracted
