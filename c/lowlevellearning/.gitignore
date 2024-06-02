@@ -1,0 +1,6 @@
+.vscode/
+
+**/bin/db*
+**/bin/*main
+
+**/obj/*.o
