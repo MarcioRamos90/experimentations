@@ -1,0 +1,3 @@
+docker build -t mramos90/nginx:prod laravel -f nginx/Dockerfile.prod
+
+docker run -d --network laranet --name nginx -p 8080:80 mramos90/nginx:prod

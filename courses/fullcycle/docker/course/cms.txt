@@ -1,0 +1,12 @@
+
+docker network create <network-name>
+
+docker exec -it <container-name> bash
+
+docker rm $(docker ps -a -q) -f
+
+docker build -t <image/name:version> <folder-name or . > -f <path/to/dockerfile>
+
+docker run -d --network <network-name> --name <name-to-containe> <image/name:version>
+    -it  is short for --interactive + --tty. When you docker run with this command it takes you straight inside the container.
+    -d  is short for --detach, which means you just run the container and then detach from it. Essentially, you run container in the background.
