@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/htmx.org@1.9.11"
+        integrity="sha384-0gxUXCCR8yv9FM2b+U3FDbsKthCI66oH5IA9fHppQq9DDMHuMauqq1ZHBpJxQ0J0"
+        crossorigin="anonymous"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <title>Hello world</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <div class="mt-8">
+        {% ifchanged categories is not None %}
+        <div class="flex flex-row overflow-x-auto snap-x">
+        {% for i in categories %}
+            <div class="mx-6 snap-center">
+            {{ i }}
+            </div>
+            {% endfor %}
+        </div>
+        {% endifchanged %}
+        <div class="flex-1 overflow-y-auto px-4 py-6 sm:px-6">
+            {% ifchanged products is not None %}
+            <ul role="list" class="-my-6 divide-y divide-gray-200">
+                {% for i in products %}
+                <li class="flex py-6">
+                    <div class="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+                        <img class="h-full w-full object-cover object-center" src="{{ i.image.url }}">
+                    </div>
+                    <div class="ml-4 flex flex-1 flex-col">
+                        <div>
+                            <div class="flex justify-between text-base font-medium text-gray-900">
+                                <h3>
+                                    <a href="#">{{ i.name }}</a>
+                                </h3>
+                                <p class="ml-4">${{ i.price }}</p>
+                            </div>
+                            <p class="mt-1 text-sm text-gray-500">{{ i.short_description }}</p>
+                        </div>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+            {% else %}
+
+            No products
+
+            {% endifchanged %}
+        </div>
+    </div>
+</body>
+
+</html>

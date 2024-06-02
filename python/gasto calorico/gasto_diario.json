@@ -1,0 +1,42 @@
+{
+    "09052024": {
+        "man": {
+            "items":[{"value": 2100, "description": "Total quinta-feira"}]
+        },
+        "woman": {
+            "items":[{"value": 1800, "description": "Total quinta-feira"}]
+        }
+    },
+    "08052024": {
+        "man": {
+            "items":[{"value": 1950, "description": "Total quarta-feira"}]
+        },
+        "woman": {
+            "items":[{"value": 2040, "description": "Total quarta-feira"}]
+        }
+    },
+    "07052024": {
+        "man": {
+            "items":[{"value": 2700, "description": "Total terça-feira"}]
+        },
+        "woman": {
+            "items":[{"value": 1850, "description": "Total terça-feira"}]
+        }
+    },
+    "06052024": {
+        "man": {
+            "items":[{"value": 2150, "description": "Total segunda-feira"}]
+        },
+        "woman": {
+            "items":[{"value": 1810, "description": "Total segunda-feira"}]
+        }
+    },
+    "05052024": {
+        "man": {
+            "items": [{"value": 2150, "description": "Total domingo"}]
+        },
+        "woman": {
+            "items": [{"value": 2250, "description": "Total domingo"}]
+        }
+    }
+}

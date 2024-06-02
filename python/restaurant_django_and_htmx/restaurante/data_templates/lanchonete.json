@@ -1,0 +1,53 @@
+{
+    "categories": [
+        {
+            "name": "Promoções"
+        },
+        {
+            "name": "Lanches"
+        },
+        {
+            "name": "Premium"
+        },
+        {
+            "name": "Sobremesa"
+        },
+        {
+            "name": "Bebidas"
+        }
+    ],
+    "products": [
+        {
+            "name": "Big Tayste Onion",
+            "price": 43.50,
+            "description": "Big Tayste Onion Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever tsince the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrase sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "domain": "Big-Tayste-onion",
+            "categories": ["Promoções", "Premium"],
+            "image": "file:\\Users\\Marcio\\Pictures\\oniorings.jpeg"
+        },
+        {
+            "name": "Big xac owner rold",
+            "price": 55,
+            "image": "file:\\Users\\Marcio\\Pictures\\lanche.jpeg",
+            "description": "Big xac owner rold Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum.",
+            "domain": "Big-xac-owner-rold",
+            "categories": ["Lanches"]
+        },
+        {
+            "name": "Onion BBQ",
+            "price": 45.50,
+            "image": "file:\\Users\\Marcio\\Pictures\\onionbbq.jpg",
+            "description": "Onion BBQ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "domain": "Onion-BBQ",
+            "categories": ["Lanches", "Premium"]
+        },
+        {
+            "name": "Brownie",
+            "price": 15.5,
+            "image": "file:\\Users\\Marcio\\Pictures\\brownie.jpg",
+            "description": "Onion BBQ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "domain": "Brownie",
+            "categories": ["Sobremesa"]
+        }
+    ]
+}

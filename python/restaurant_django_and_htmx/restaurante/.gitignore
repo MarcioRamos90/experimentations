@@ -1,0 +1,11 @@
+.venv/
+venv/
+todos.txt
+__pycache__
+**pyc
+
+*drawio
+
+db.sqlite3
+
+media/

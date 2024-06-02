@@ -1,0 +1,47 @@
+MAKE A LIST OF PRODUCTS == OK
+    how to save the image in a domain I choosed == OK
+        Just use MEDIA_ROOT env var configuration
+
+    show the product list in frontend == OK
+
+    Make id auto generated == OK
+        use models.AutoField(primary_key=True, ...)
+
+    import template of products by api == OK
+        create a automatic way to load products automaticaly (json obj)
+            why? because I want to be able to recreate the db from 0 as many times I wanted
+    
+    improve the mobile style == ok
+
+
+ADMIN PRODUCT LIST == OK
+    show images in items of adm == OK
+
+
+CREATE CATEGORY == doing
+    add category models == ok
+
+    add relationship many to many with products == ok
+
+    create importer of this categories together with the products already == OK
+
+    show categorieson list screen == next
+
+    scroll vertical action to the category clicked
+    
+    scroll horizontal depending on wht scroll vertical are
+
+
+
+DETAILS PAGE == NEXT
+    on click o product, show the details of product in another page
+
+    choose the quantity of product
+
+
+CART PAGE
+    show total im list page as a button to redirect to submit page
+
+    create the product car with total
+
+
